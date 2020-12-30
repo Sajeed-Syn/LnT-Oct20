@@ -1,0 +1,40 @@
+ download fiddler tool for testing web api
+	postman
+  
+	database -------------mvc
+	client side
+	html,javascript,jquery,angular,knockout js,vue js,react js
+
+	database		webapi		clientside tech
+jquery/javascript --- ajax calls
+angular --- services
+m-vc --- webapi
+	httpservice
+opensource
+browser
+mobile
+desktop
+IOTs
+-----------
+exchange json/xml
+web service
+wcf
+wcf restfull service
+rest full--- web api
+===============================
+Create	HttpPost
+Read	HttpGet
+Update	HttpPut
+Delete	HttpDelete
+===================
+http://empsite?id=3
+---------------------
+http://localhost:3453/Controller/Action
+-------------------------------------
+http://localhost:3422/api/contoller/parameter
+----------------------
+200 ok
+404 not found
+-----------------
+{"Id":77,"deptname":"Sports","location":"Mumbai"}
+
