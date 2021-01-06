@@ -1,0 +1,82 @@
+Restful Services
+Http Protocols
+Http Verbs
+Data lightweight -- json/xml
+--------
+web service---> soap protocol
+wcf --- data contracts/service contract/message contract
+wcf restfull services
+web api
+---------------
+content negotiation
+mediaformatters
+-----------
+serialization ---- saving the state of the object
+------------------
+Movie m=new Movie()
+------------
+c1---->serialize obj-----trf to c2----deserialize --- process---serialize again --- trf to c1--- desrialize and use it
+------------------
+------------------
+http verbs + url
+----------
+x=add(10,20)
+-----------------------
+methods names
+-------------
+[httpget]
+showdept()
+{}
+--------------
+api/controllername/actionname/id
+----------------------------
+api/Dept/getdept/2
+----------------------
+dept---->   employee
+------------
+dept
+....
+public ICollection<Employee> employees {get;set;}
+-----------------------------
+employee
+...
+public Dept dept {get;set;}
+-----------------------------------
+EmpId Name DeptName Location
+------------
+ emp.Dept.deptname, emp.Dept.location
+---------------
+Lazy Loading
+eager --- on demand loading 
+===============================
+1. mvc as client
+2. html as client
+3. angular as client
+---------------------
+http verbs + url
+--------------------
+mvc     deptclient==>http
+add()
+getalldept() api/dept/getdept
+search()	api/dept/getdept/20
+----------------------
+fiddler		request/response		webapi
+--------------------------
+ b1-- method1()
+ b2 -- method2()
+-----------
+call method asyn you to give information about completion of process
+----------------------------
+mvc = pr1
+webapi = pr2
+---------------
+htmlpage---->webapi
+------------------
+htmlpage/angular ----> webapi --remote
+--------------
+client for webapi
+----------------
+mvc ---->httpclient---->webapi
+html/jquery  ----->ajax ----> webapi
+angular --- webapi
+

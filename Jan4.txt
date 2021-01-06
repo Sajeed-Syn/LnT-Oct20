@@ -1,0 +1,45 @@
+WebApi
+angular --->webapi
+-------------------------
+mvc-- model controller in webapi
+angular --- view
+-------------------------
+1. create a webapi and host it in IIS
+2. angular to connect to webapi
+3. CRUD using angular
+-----------------------------
+http://localhost/mydeptwebapi/api/dept/getdept
+------------------------------
+		CORS
+	Cross Origin Resource Sharing
+-----------------------------------------
+ webapi -----> DomainA
+ ClientApp ----------> DomainB
+----------------------------
+	Angular
+	1. Create a folder AngularClient
+	2. Create an angular project called DeptClient in the 	above folder.
+-------------------------	
+	3.ng new DeptClient
+	4. go to the deptclient folder and launch VS code
+		by giving ---->  code .
+	5. CRUD
+	6. installing bootstrap for the project
+		open your terminal window in vs code and give the command --- npm install bootstrap
+	7. open file angular.json
+		find the section called styles
+	8. Create the following components
+		ng g c	dept-list
+		ng g c	dept-display
+		ng g c	dept-add
+		ng g c	dept-delete
+		ng g c	dept-edit
+	9. Create a folder models
+	10. Create a folder services
+	11. Make provision for menu
+--------------------------------
+	ng serve -o
+------------------------
+ang client listcomponent    services	web api
+---------------------------
+	ng g service services/DeptService

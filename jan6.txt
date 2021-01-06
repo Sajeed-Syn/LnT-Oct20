@@ -1,0 +1,27 @@
+dept-display
+-------------
+http://localhost/mydeptwebapi/api/getdept/2
+-------------------------------------------
+url --- route
+------------------
+ActivatedRoute
+============
+ar.snapshot.paramMap.get('parametername')
+------------------
+link-->display----->displaycomponent-->capture url and id--->servicemethod
+---------------------
+total = total + salary
+total += salary
+--------------------------------
+addition
+=========
+link==add--->addcomponent-->loadhtmlpage--->submit--->component--->savedata--->will call servicemethods
+--------------------------------------------
+	editing
+	=======
+link==edit-->editcomponent-->fetchrecord--call fetchservice--->display in htmlform--->makechanges---submitform-->call editservice
+----------------------------------
+16 group
+8 prj
+------------------
+2 grp with the same prj
